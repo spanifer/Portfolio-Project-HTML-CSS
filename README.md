@@ -4,14 +4,17 @@ Getting ready to **_shine_** ✨
 
 ___
 
-## Initial ideas the project is built upon
+## Initial ideas
 
 ### Main idea
 
++ Landing page for an imaginary vintage car exhibition, and similar real-life events
++ The impact of cars of the industrial revolution
++ Gallery of the first mass produced cars
 + A historic view of vintage cars, and initial acceptance by society.
 + First mass produced combustion engine and/or steam engine cars.
-+ Technologies used 
-+ Driving experience compared to next-to-present technological advancement
++ ~~Technologies used~~
++ ~~Driving experience compared to next-to-present technological advancement~~
 
 ### Dream to accomplish
 
@@ -40,13 +43,17 @@ Documenting design flow
 
 Creating a website about Cars and how they came to be, for a wide target audience from *children* to __enthusiast__
 
-The content specifically focuses on Cars becoming a reality, so whoever is interested in that topic should find this site sufficient and informative.
+The content specifically focuses on Cars becoming a reality for the masses, so whoever is interested in that topic should find this site sufficient and informative.
+
+Landing page should have a main image followed by an introductory inviting text to scroll down further and find historical timeline of how cars came to be, link to gallery and become 
+
+
 
 #### Value
 
 It needs to be visually appealing so much so that less interested visitors about the topic gets convinced to explore the site. Expecting the initial short intro animation to excite interest.
 
-The site could incorporate a club section for enthusiasts where they could meet and showcase own valuable assets.
+The site have a subscription page to receive upcoming exhibition information.
 
 #### Focus
 

@@ -28,3 +28,32 @@ I want to showcase what I already know, and also experiment on what is possible 
 5. A become a member form or register for upcoming event notification form.
 
 6. A hidden page to respond to the form.
+
+***
+
+## UXD Approach
+Documenting design flow
+
+### Strategy
+
+#### Definition
+
+Creating a website about Cars and how they came to be, for a wide target audience from *children* to __enthusiast__
+
+The content specifically focuses on Cars becoming a reality, so whoever is interested in that topic should find this site sufficient and informative.
+
+#### Value
+
+It needs to be visually appealing so much so that less interested visitors about the topic gets convinced to explore the site. Expecting the initial short intro animation to excite interest.
+
+The site could incorporate a club section for enthusiasts where they could meet and showcase own valuable assets.
+
+#### Focus
+
+Opportunity / Problem | Importance | Feasibility
+--- | --- | ---
+First impression of intro animation | 5 | ?
+Member registration | 4 | 3
+Upcoming events subscription | 5 | 4
+Gallery page | 3 | 4
+Overall landing page | 5 | 5

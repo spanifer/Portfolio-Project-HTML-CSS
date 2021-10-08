@@ -115,8 +115,9 @@ I want to showcase what I already know, and also experiment on what is possible 
         - Main navigation at the top
         - Aside navigation for the timeline
     - ### Wireframes
-        - [Mobile](assets/readme/mobile.jpg)
-        - []
+        - [Mobile/Tablet](assets/readme/mobile.jpg)
+        - [Small Screen]()
+        - [Large Screen]()
 
 - ## Surface
 
@@ -129,6 +130,7 @@ I want to showcase what I already know, and also experiment on what is possible 
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [Git](https://git-scm.com/)
 
 # Testing
 
@@ -156,7 +158,7 @@ The project was deployed to GitHub Pages using the following steps...
 ## Content
 
 ## Media
-- On Youtube: [Bertha Benz: The First Driver](https://youtu.be/JBL_G-C51Dk)
+- On Youtube: [Driving a Ford Model T](https://youtu.be/MLMS_QtKamg)
 - [Pexels](https://www.pexels.com/)
     - [Main Image](https://www.pexels.com/photo/vintage-cars-in-a-well-lighted-room-175568/)
 - [Pixabay](https://www.pixabay.com/)

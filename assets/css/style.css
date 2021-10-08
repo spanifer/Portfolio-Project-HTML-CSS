@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Ephesis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: "Arbutus Slab", sans-serif;
+}
+
+h1, h2 {
+    font-family: Ephesis, sans-serif;
+}

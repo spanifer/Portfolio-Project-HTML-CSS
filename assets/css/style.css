@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Ephesis&display=swap');
 
+:root {
+    --main-text-color: #000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,4 +16,51 @@ body {
 
 h1, h2 {
     font-family: Ephesis, sans-serif;
+    color: var(--main-text-color);
+}
+
+/* Logo and header */
+
+header a {
+    text-decoration: none;
+}
+
+#logo {
+    font-size: 200%;
+    margin-left: 1rem;
+    letter-spacing: .2em;
+    float: left;
+}
+
+#logo abbr {
+    text-decoration: none;
+}
+
+/* Main nav links */
+
+#menu {
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 1rem;
+    float: left;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* temporary section style */
+section {
+    clear: both;
 }

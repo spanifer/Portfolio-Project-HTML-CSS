@@ -163,5 +163,6 @@ The project was deployed to GitHub Pages using the following steps...
     - [Main Image](https://www.pexels.com/photo/vintage-cars-in-a-well-lighted-room-175568/)
 - [Pixabay](https://www.pixabay.com/)
 - [Unsplash](https://unsplash.com/)
+- [Image average color finder](https://10015.io/tools/image-average-color-finder)
 
 ## Acknowledgements

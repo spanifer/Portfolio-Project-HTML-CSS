@@ -2,6 +2,8 @@
 
 :root {
     --main-text-color: #000;
+    --header-height: 75px;
+    --aside-height: 55px;
 }
 
 * {
@@ -60,7 +62,12 @@ header a {
     text-decoration: underline;
 }
 
-/* temporary section style */
-section {
+/* Hero image */
+
+#hero {
+    height: calc(100vh - var(--header-height) - var(--aside-height));
+    width: 100%;
+    background: #4f4a41 url(../images/main-image.jpg) no-repeat center bottom / auto 100%;
+    position: relative;
     clear: both;
 }

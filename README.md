@@ -164,5 +164,6 @@ The project was deployed to GitHub Pages using the following steps...
 - [Pixabay](https://www.pixabay.com/)
 - [Unsplash](https://unsplash.com/)
 - [Image average color finder](https://10015.io/tools/image-average-color-finder)
+- To find matching colors: [Coolors](https://coolors.co/)
 
 ## Acknowledgements

@@ -4,6 +4,13 @@
     --main-text-color: #000;
     --header-height: 75px;
     --aside-height: 55px;
+
+    /* Coolors */
+    --davys-grey: #4f4a41ff;
+    --alice-blue: #dcedffff;
+    --key-lime: #ecfeaaff;
+    --middle-purple: #d282a6ff;
+    --oxford-blue: #030027ff;
 }
 
 * {

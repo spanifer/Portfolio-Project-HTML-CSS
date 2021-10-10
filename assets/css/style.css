@@ -25,10 +25,15 @@ body {
 
 h1, h2 {
     font-family: Ephesis, sans-serif;
-    color: var(--main-text-color);
+    color: var(--oxford-blue);
 }
 
 /* Logo and header */
+
+header {
+    height: var(--header-height);
+    background: linear-gradient(#FFF 80%,var(--davys-grey));
+}
 
 header a {
     text-decoration: none;
@@ -69,7 +74,7 @@ header a {
     text-decoration: underline;
 }
 
-/* Hero image */
+/* Hero image and cover text*/
 
 #hero {
     height: calc(100vh - var(--header-height) - var(--aside-height));
@@ -77,4 +82,21 @@ header a {
     background: #4f4a41 url(../images/main-image.jpg) no-repeat center bottom / auto 100%;
     position: relative;
     clear: both;
+}
+
+#cover-text {
+    position: absolute;
+    top: 10%;
+    right: 1rem;
+    background: var(--oxford-blue);
+    padding: .5rem;
+    border: var(--alice-blue) 2px solid;
+    border-radius: 6px;
+    transform: rotateZ(12deg);
+}
+
+#cover-text > h2 {
+    color: var(--key-lime);
+    word-wrap: normal;
+    font-size: 150%;
 }

@@ -156,7 +156,8 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Code
 + Markdown documentation from [The Markdown Guide](https://www.markdownguide.org/basic-syntax/)
-+ README.md structure inspiration from [CI SampleReadme](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+<!-- https://stackoverflow.com/questions/25706012/how-do-i-prevent-auto-generated-links-in-the-github-wiki#answer-25707855 -->
++ README<area>.md structure inspiration from [CI SampleReadme](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
 + Responsive pixel size on [stackoverflow](https://stackoverflow.com/questions/21574881/responsive-design-with-media-query-screen-size#answer-38037613)
 + At least 5 separate tab of [MDN Web Docs](https://developer.mozilla.org/en-US/) are in constant use 
 

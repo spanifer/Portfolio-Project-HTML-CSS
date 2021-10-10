@@ -165,5 +165,6 @@ The project was deployed to GitHub Pages using the following steps...
 - [Unsplash](https://unsplash.com/)
 - [Image average color finder](https://10015.io/tools/image-average-color-finder)
 - To find matching colors: [Coolors](https://coolors.co/)
+- For contrast comparison: [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%234f4a41ff%3B%0D%0A%23dcedffff%3B%0D%0A%23ecfeaaff%3B%0D%0A%23d282a6ff%3B%0D%0A%23030027ff%3B%0D%0A%23FFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 
 ## Acknowledgements

@@ -134,6 +134,10 @@ I want to showcase what I already know, and also experiment on what is possible 
 
 # Testing
 
+## Found issues
+
+- CSS property scroll-behavior is not supported by the Safari browser
+
 # Deployment
 
 ## GitHub Pages
@@ -154,6 +158,7 @@ The project was deployed to GitHub Pages using the following steps...
 + Markdown documentation from [The Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 + README.md structure inspiration from [CI SampleReadme](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
 + Responsive pixel size on [stackoverflow](https://stackoverflow.com/questions/21574881/responsive-design-with-media-query-screen-size#answer-38037613)
++ At least 5 separate tab of [MDN Web Docs](https://developer.mozilla.org/en-US/) are in constant use 
 
 ## Content
 

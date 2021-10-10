@@ -21,6 +21,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Arbutus Slab", sans-serif;
 }

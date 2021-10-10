@@ -3,7 +3,9 @@
 :root {
     --main-text-color: #000;
     --header-height: 75px;
-    --aside-height: 55px;
+
+    /* mobile url-bar height */
+    --mobile-url-bar-height: 55px;
 
     /* Coolors */
     --davys-grey: #4f4a41ff;
@@ -29,11 +31,6 @@ h1, h2 {
 }
 
 /* Logo and header */
-
-header {
-    height: var(--header-height);
-    background: linear-gradient(#FFF 80%,var(--davys-grey));
-}
 
 header a {
     text-decoration: none;
@@ -77,11 +74,21 @@ header a {
 /* Hero image and cover text*/
 
 #hero {
-    height: calc(100vh - var(--header-height) - var(--aside-height));
+    height: calc(100vh - var(--header-height) - var(--mobile-url-bar-height));
     width: 100%;
     background: #4f4a41 url(../images/main-image.jpg) no-repeat center bottom / auto 100%;
     position: relative;
     clear: both;
+}
+
+#hero::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(white 5%, #4f4a41ee);
+    position: relative;
+    top: -10px;
 }
 
 #cover-text {

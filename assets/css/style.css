@@ -119,6 +119,7 @@ header a {
     top: 0;
     width: 100%;
     height: var(--mobile-url-bar-height);
+    z-index: 10;
 }
 
 #local-nav::before {
@@ -155,14 +156,19 @@ header a {
     color: var(--key-lime);
 }
 
+/* section styling after the hero image */
+
+#hero ~ section {
+    margin: 0 2%;
+}
+
 /* Introduction and youtube video */
 
 #intro {
-    margin: 0 2%;
     padding-top: var(--mobile-url-bar-height);
 }
 
-#intro > h2 {
+h2 {
     text-align: center;
     font-size: 170%;
     margin-bottom: 1rem;
@@ -171,6 +177,44 @@ header a {
 #yt-video {
     width: 100%;
     height: calc(100vw * 0.54);
+}
+
+/* History and timeline */
+#history-timeline {
+    padding-top: var(--mobile-url-bar-height);
+}
+
+#history-timeline header{
+    position: sticky;
+    top: var(--mobile-url-bar-height);
+    z-index: 5;
+
+    background-color: white;
+    padding-left: 2rem;
+}
+
+article h3::before {
+    content: "";
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 5px solid var(--oxford-blue);
+    left: 0.27rem;
+    top: 0.45rem;
+    border-radius: 50%;
+}
+
+article section {
+    margin-left: .5rem;
+    border-left: 3px solid var(--oxford-blue);
+    padding-left: .5rem;
+}
+
+/* temp */
+#history-timeline section {
+    height: 600px;
 }
 
 /* Media queries */

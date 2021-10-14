@@ -34,6 +34,12 @@ h1, h2 {
     color: var(--oxford-blue);
 }
 
+h2 {
+    text-align: center;
+    font-size: 170%;
+    margin-bottom: 1rem;
+}
+
 /* Logo and header */
 
 header a {
@@ -110,6 +116,7 @@ header a {
     color: var(--key-lime);
     word-wrap: normal;
     font-size: 150%;
+    margin-bottom: unset;
 }
 
 /* Same-page internal nav links */
@@ -166,12 +173,6 @@ header a {
 
 #intro {
     padding-top: var(--mobile-url-bar-height);
-}
-
-h2 {
-    text-align: center;
-    font-size: 170%;
-    margin-bottom: 1rem;
 }
 
 #yt-video {

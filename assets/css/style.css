@@ -90,9 +90,9 @@ header a {
     display: block;
     width: 100%;
     height: 20px;
-    background: linear-gradient(#4f4a4100, var(--davys-grey));
+    background: linear-gradient(#4f4a4100, var(--davys-grey), #4f4a4100);
     position: relative;
-    top: -19px;
+    top: -10px;
 }
 
 #cover-text {
@@ -170,7 +170,7 @@ header a {
 
 #yt-video {
     width: 100%;
-    height: calc(100vw*0.52);
+    height: calc(100vw * 0.54);
 }
 
 /* Media queries */

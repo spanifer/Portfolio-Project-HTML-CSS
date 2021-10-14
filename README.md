@@ -101,7 +101,6 @@ I want to showcase what I already know, and also experiment on what is possible 
     - ### Available content, available resources
         - Found a video on Youtube for an initial intro for the historic timeline.
         - A website for classic car shows for reference [here](https://www.classiccarevents.uk/listings/upcoming_fortnight.php)
-        - Few pictures for the gallery from royalty free websites (see [Credits -> Media](#media))
 
 - ## Structure
     Not sure how to formulate in sentences, yet to document the design process it is necessary.
@@ -120,6 +119,21 @@ I want to showcase what I already know, and also experiment on what is possible 
         - [Large Screen]()
 
 - ## Surface
+    - ### Mobile first design approach
+    - ### Colour Scheme
+        Colours chosen from [coolors.com](https://coolors.co/4f4a41-dcedff-ecfeaa-d282a6-030027)
+        - white
+        - davys-grey: #4f4a41ff
+        - alice-blue: #dcedffff
+        - key-lime: #ecfeaaff
+        - middle-purple: #d282a6ff
+        - oxford-blue: #030027ff
+    - ### Typography
+        - Arbutus Slab font was chosen for the main content and general text, to achieve the atmosphere of the retro cars on display. Inspired by 18th and 19th American jobbing type.
+        - Ephesis font was chosen for large headings to reenforce the atmosphere even more.
+    - ### Imagery
+        - Main image chosen for an instant and inviting look of the cars on display. (Lucky find I must say.)
+        - Other images from royalty free image collection sites (see [Credits -> Media](#media))
 
 # Features
 
@@ -128,14 +142,21 @@ I want to showcase what I already know, and also experiment on what is possible 
 
 # Technologies used
 
+## Languages used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- [Git](https://git-scm.com/)
+
+## Frameworks, Libraries & Programs Used
+1. [Git](https://git-scm.com/)
+1. [GitHub](https://github.com)
+1. [Google Fonts](https://fonts.google.com/)
+1. [Font Awesome](https://fontawesome.com/)
+1. [Balsamiq](https://balsamiq.com/)
+1. [Image average color finder](https://10015.io/tools/image-average-color-finder)
 
 # Testing
 
 ## Found issues
-
 - CSS property scroll-behavior is not supported by the Safari browser
 
 # Deployment
@@ -159,7 +180,8 @@ The project was deployed to GitHub Pages using the following steps...
 <!-- https://stackoverflow.com/questions/25706012/how-do-i-prevent-auto-generated-links-in-the-github-wiki#answer-25707855 -->
 + README<area>.md structure inspiration from [CI SampleReadme](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
 + Responsive pixel size on [stackoverflow](https://stackoverflow.com/questions/21574881/responsive-design-with-media-query-screen-size#answer-38037613)
-+ At least 5 separate tab of [MDN Web Docs](https://developer.mozilla.org/en-US/) are in constant use 
++ At least 5 separate tab of [MDN Web Docs](https://developer.mozilla.org/en-US/) are in constant use
++ [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
 ## Content
 
@@ -169,7 +191,6 @@ The project was deployed to GitHub Pages using the following steps...
     - [Main Image](https://www.pexels.com/photo/vintage-cars-in-a-well-lighted-room-175568/)
 - [Pixabay](https://www.pixabay.com/)
 - [Unsplash](https://unsplash.com/)
-- [Image average color finder](https://10015.io/tools/image-average-color-finder)
 - To find matching colors: [Coolors](https://coolors.co/)
 - For contrast comparison: [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%234f4a41ff%3B%0D%0A%23dcedffff%3B%0D%0A%23ecfeaaff%3B%0D%0A%23d282a6ff%3B%0D%0A%23030027ff%3B%0D%0A%23FFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 

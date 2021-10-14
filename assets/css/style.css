@@ -217,7 +217,22 @@ article section {
 /* Address details and embedded map */
 #address iframe {
     width: 100%;
-    /* height: 50%; */
+}
+
+/* Social media links and icons */
+#social-networks {
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+#social-networks > li{
+    display: inline-block;
+    margin: 0 5%;
+}
+
+#social-networks i {
+    color: var(--oxford-blue);
+    font-size: 300%;
 }
 
 /* Media queries */

@@ -213,9 +213,11 @@ article section {
     padding-left: .5rem;
 }
 
-/* temp */
-#history-timeline section {
-    height: 600px;
+
+/* Address details and embedded map */
+#address iframe {
+    width: 100%;
+    /* height: 50%; */
 }
 
 /* Media queries */

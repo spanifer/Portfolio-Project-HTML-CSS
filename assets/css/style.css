@@ -194,6 +194,7 @@ header a {
     position: sticky;
     top: var(--mobile-url-bar-height);
     z-index: 5;
+    height: unset;
 
     background-color: white;
     padding-left: 2rem;

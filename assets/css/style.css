@@ -42,6 +42,10 @@ h2 {
 
 /* Logo and header */
 
+header {
+    height: var(--header-height);
+}
+
 header a {
     text-decoration: none;
 }
@@ -139,7 +143,7 @@ header a {
     top: -10px;
 }
 
-#local-nav > ul {
+#local-nav > nav > ul {
     text-align: center;
     background-color: var(--davys-grey);
     border-bottom-left-radius: 10px;

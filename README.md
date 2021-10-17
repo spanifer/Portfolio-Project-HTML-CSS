@@ -155,9 +155,11 @@ I want to showcase what I already know, and also experiment on what is possible 
 1. [Image average color finder](https://10015.io/tools/image-average-color-finder)
 
 # Testing
+- Chromes [Screen Reader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) to test accessibility
 
 ## Found issues
 - CSS property scroll-behavior is not supported by the Safari browser
+- Smooth-scroll for internal links does not scroll to the referenced id if the Screen Reader is enabled
 
 # Deployment
 

@@ -33,19 +33,22 @@
         </nav>
     </header>
     <!-- Hero image -->
-    <section id="hero">
+    <section id="hero" role="img" aria-label="A look inside the Retro car exhibition">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Role_Img -->
         <div id="cover-text">
             <h2>Vintage Cars</h2>
         </div>
     </section>
     <!-- Local navigation links -->
     <aside id="local-nav">
-        <ul>
-            <li><a href="#menu">Top</a></li>
-            <li><a href="#intro">Intro</a></li>
-            <li><a href="#history-timeline">History</a></li>
-            <li><a href="#social-networks">Social</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#menu">Top</a></li>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#history-timeline">History</a></li>
+                <li><a href="#social-networks">Social</a></li>
+            </ul>
+        </nav>
     </aside>
     <!-- Introduction content -->
     <section id="intro">
@@ -103,22 +106,22 @@
     <footer>
         <ul id="social-networks">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://facebook.com" target="_blank" rel="noopener external" aria-label="Visit our facebook page (opens in new tab)">
                     <i class="fab fa-facebook-square"></i>
                 </a>
             </li>
             <li>
-                <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="http://instagram.com" target="_blank" rel="noopener external" aria-label="Visit our instagram page (opens in new tab)">
                     <i class="fab fa-instagram-square"></i>
                 </a>
             </li>
             <li>
-                <a href="http://youtube.com" target="_blank" rel="noopener noreferrer">
+                <a href="http://youtube.com" target="_blank" rel="noopener external" aria-label="Visit our youtube channel (opens in new tab)">
                     <i class="fab fa-youtube-square"></i>
                 </a>
             </li>
             <li>
-                <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+                <a href="http://twitter.com" target="_blank" rel="noopener external" aria-label="Visit our twitter feed (opens in new tab)">
                     <i class="fab fa-twitter-square"></i>
                 </a>
             </li>

@@ -43,16 +43,24 @@
     <!-- Event alert subscription form -->
     <section>
         <h2>Let us notify you when new events are available</h2>
-        <form action="handle-subscription.html" method="post">
+        <form action="handle-subscription.html" method="get">
+            <!-- For demonstration purpose a get method is used -->
             <label for="name">Name</label>
+            <input type="text" name="name" id="name" minlength="2" maxlength="64" placeholder="or nick name" required>
             <label for="email">Email</label>
-            <span>Please chose additional subscription option</span>
+            <input type="email" name="email" id="email" required>
+            <span>Please choose the subscription</span>
             <label for="newsletter">Newsletter</label>
+            <input type="checkbox" name="newsletter" id="newsletter">
             <label for="events">Events notification</label>
-            <span>You can chose to only receive notifications from your selected areas</span>
-            <label for="ireland"></label>
-            <label for="north"></label>
-            <label for="england"></label>
+            <input type="checkbox" name="events" id="events" checked>
+            <span>You can choose to receive notification from Ireland only</span>
+            <label for="all">All region</label>
+            <input type="radio" name="region" id="all" required>
+            <label for="ireland">Ireland only</label>
+            <input type="radio" name="region" id="ireland">
+            <input type="submit" value="Sign me up">
+            <input type="reset" value="Reset form to default">
         </form>
     </section>
     <!-- Social Networks -->

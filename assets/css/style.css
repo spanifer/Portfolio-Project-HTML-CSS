@@ -249,19 +249,33 @@ article section {
 }
 
 /* Event cards */
-#event-cards > div {
+#event-cards-container {
+    margin: 0;
+    padding: 2%;
     box-sizing: border-box;
-    margin-bottom: 0.5rem;
+    width: 100%;
+    background-color: var(--davys-grey);
+}
+
+#event-cards-container > div {
+    margin-bottom: 2%;
     padding: 0.2rem 1rem;
     border-radius: 10px;
-    width: 100%;
-    color: var(--key-lime);
-    background-color: var(--davys-grey);
+    color: var(--oxford-blue);
+    background-color: var(--alice-blue);
     overflow: auto;
 }
 
-#event-cards h3 {
-    color: var(--alice-blue);
+#event-cards-container > div:last-child {
+    margin: 0;
+}
+
+#event-cards-container h3 {
+    color: var(--davys-grey);
+}
+
+hr {
+    margin: 10px;
 }
 
 /* Subscription Form */

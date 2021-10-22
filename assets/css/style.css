@@ -40,6 +40,11 @@ h2 {
     margin-bottom: 1rem;
 }
 
+/* General classes */
+.float-right {
+    float: right;
+}
+
 /* Logo and header */
 
 header {
@@ -85,6 +90,13 @@ header a {
     text-decoration: underline;
 }
 
+/* section styling after the hero image */
+
+header ~ section {
+    margin: 0 2%;
+    clear: both;
+}
+
 /* Hero image and cover text*/
 
 #hero {
@@ -93,6 +105,7 @@ header a {
     background: #4f4a41 url(../images/main-image.jpg) no-repeat center bottom / auto 100%;
     position: relative;
     clear: both;
+    margin: 0;
 }
 
 #hero::before {
@@ -168,12 +181,6 @@ header a {
     color: var(--key-lime);
 }
 
-/* section styling after the hero image */
-
-#hero ~ section {
-    margin: 0 2%;
-}
-
 /* Introduction and youtube video */
 
 #intro {
@@ -239,6 +246,62 @@ article section {
 #social-networks i {
     color: var(--oxford-blue);
     font-size: 300%;
+}
+
+/* Event cards */
+#event-cards > div {
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    width: 100%;
+    color: var(--key-lime);
+    background-color: var(--davys-grey);
+    overflow: auto;
+}
+
+#event-cards h3 {
+    color: var(--alice-blue);
+}
+
+/* Subscription Form */
+fieldset {
+    margin-bottom: 0.5rem;
+    padding: 1rem 0 0.3rem 1rem;
+    box-shadow: 0 -5px 5px 1px var(--alice-blue);
+    background-color: var(--alice-blue);
+}
+
+fieldset > legend {
+    padding: 0 1rem;
+    border-radius: 1rem;
+    background-color: var(--alice-blue);
+}
+
+input[type="text"], input[type="email"], input[type="submit"] {
+    font-size: inherit;
+    color: var(--oxford-blue);
+    background-color: var(--key-lime);
+}
+
+input[type="submit"] {
+    padding: 0.2rem 0.5rem;
+    border: 2px solid var(--key-lime);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--oxford-blue);
+}
+
+input[type="submit"]:hover {
+    background-color: var(--middle-purple);
+}
+
+input[type="submit"]:active {
+    background-color: #0000;
+}
+
+input[type="reset"] {
+    margin-top: 0.6rem;
 }
 
 /* Media queries */

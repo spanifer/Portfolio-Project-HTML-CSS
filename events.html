@@ -37,11 +37,11 @@
         <!-- div>h3{eventName}+span{contactDetails}+span.float-right{clickToBook?} -->
         <div>
             <h3>eventName</h3>
-            <span>contactDetails</span><span class="float-right">date</span>
+            <span>contactDetails</span><span class="float-right"><i class="far fa-calendar-check"></i>date</span>
         </div>
         <div>
             <h3>eventName</h3>
-            <span>contactDetails</span><span class="float-right">date</span>
+            <span>contactDetails</span><span class="float-right"><i class="far fa-calendar-check"></i>date</span>
         </div>
     </section>
     <hr>
@@ -51,7 +51,7 @@
         <form action="handle-subscription.html" method="get">
             <!-- Get method is used to demonstrate response to the form, a post request throws a server error as the server side response is not implemented -->
             <fieldset>
-                <legend>Your details</legend>
+                <legend><i class="fas fa-user"></i> Your details</legend>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" minlength="2" maxlength="64" placeholder="or nick name"
                     required>
@@ -60,21 +60,21 @@
                 <input type="email" name="email" id="email" required>
             </fieldset>
             <fieldset>
-                <legend>Choose subscription</legend>
+                <legend><i class="fas fa-ellipsis-v"></i> Choose subscription</legend>
                 <label for="newsletter">Newsletter</label>
                 <input type="checkbox" name="newsletter" id="newsletter">
                 <label for="events">Events notification</label>
                 <input type="checkbox" name="events" id="events" checked>
             </fieldset>
             <fieldset>
-                <legend>Choose region</legend>
+                <legend><i class="fas fa-globe-europe"></i> Choose region</legend>
                 <label for="all">All region</label>
                 <input type="radio" name="region" id="all" required>
                 <label for="ireland">Ireland only</label>
                 <input type="radio" name="region" id="ireland">
             </fieldset>
             <div>
-                <input type="submit" value="Sign me up">
+                <button type="submit"><i class="fas fa-arrow-circle-up"></i> Subscribe</button>
                 <input type="reset" value="Reset form to default" class="float-right">
             </div>
         </form>

@@ -292,13 +292,13 @@ fieldset > legend {
     background-color: var(--alice-blue);
 }
 
-input[type="text"], input[type="email"], input[type="submit"] {
+input[type="text"], input[type="email"], button[type="submit"] {
     font-size: inherit;
     color: var(--oxford-blue);
     background-color: var(--key-lime);
 }
 
-input[type="submit"] {
+button[type="submit"] {
     padding: 0.2rem 0.5rem;
     border: 2px solid var(--key-lime);
     border-radius: 0.5rem;
@@ -306,11 +306,11 @@ input[type="submit"] {
     color: var(--oxford-blue);
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background-color: var(--middle-purple);
 }
 
-input[type="submit"]:active {
+button[type="submit"]:active {
     background-color: #0000;
 }
 

@@ -46,32 +46,43 @@
     </section>
     <hr>
     <!-- Event and newsletter subscription form -->
-    <section id="form">
+    <section>
         <h2>Let us notify you when new events are available</h2>
         <form action="handle-subscription.html" method="get">
             <!-- Get method is used to demonstrate response to the form, a post request throws a server error as the server side response is not implemented -->
-            <fieldset>
+            <fieldset id="form-details">
                 <legend><i class="fas fa-user"></i> Your details</legend>
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" minlength="2" maxlength="64" placeholder="or nick name"
-                    required>
-                <br>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" minlength="2" maxlength="64" placeholder="or nick name"
+                        required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
             </fieldset>
             <fieldset>
                 <legend><i class="fas fa-ellipsis-v"></i> Choose subscription</legend>
-                <label for="newsletter">Newsletter</label>
-                <input type="checkbox" name="newsletter" id="newsletter">
-                <label for="events">Events notification</label>
-                <input type="checkbox" name="events" id="events" checked>
+                <span>
+                    <label for="newsletter">Newsletter</label>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                </span>
+                <span>
+                    <label for="events">Events notification</label>
+                    <input type="checkbox" name="events" id="events" checked>
+                </span>
             </fieldset>
             <fieldset>
                 <legend><i class="fas fa-globe-europe"></i> Choose region</legend>
-                <label for="all">All region</label>
-                <input type="radio" name="region" id="all" required>
-                <label for="ireland">Ireland only</label>
-                <input type="radio" name="region" id="ireland">
+                <span>
+                    <label for="all">All region</label>
+                    <input type="radio" name="region" id="all" required>
+                </span>
+                <span>
+                    <label for="ireland">Ireland only</label>
+                    <input type="radio" name="region" id="ireland">
+                </span>
             </fieldset>
             <div>
                 <button type="submit"><i class="fas fa-arrow-circle-up"></i> Subscribe</button>

@@ -281,7 +281,7 @@ hr {
 /* Subscription Form */
 fieldset {
     margin-bottom: 0.5rem;
-    padding: 1rem 0 0.3rem 1rem;
+    padding: 1rem 0.3rem 0.3rem 1rem;
     box-shadow: 0 -5px 5px 1px var(--alice-blue);
     background-color: var(--alice-blue);
 }
@@ -292,15 +292,41 @@ fieldset > legend {
     background-color: var(--alice-blue);
 }
 
-input[type="text"], input[type="email"], button[type="submit"] {
+fieldset > span {
+    white-space: nowrap;
+    margin-right: 1rem;
+}
+
+#name, #email, button[type="submit"] {
     font-size: inherit;
+    font-family: inherit;
     color: var(--oxford-blue);
     background-color: var(--key-lime);
 }
 
+#form-details label, #form-details input {
+    line-height: 2rem;
+}
+
+#form-details label {
+    display: inline-block;
+    width: 3.6rem;
+}
+
+#form-details input {
+    width: calc(100% - 4rem);
+    padding: 0 0.3rem;
+    border: 1px solid var(--middle-purple);
+    box-sizing: border-box;
+}
+
+#form-details ~ fieldset > span{
+    line-height: 2rem;
+}
+
 button[type="submit"] {
     padding: 0.2rem 0.5rem;
-    border: 2px solid var(--key-lime);
+    border: 2px solid var(--middle-purple);
     border-radius: 0.5rem;
     font-size: 1.5rem;
     color: var(--oxford-blue);
@@ -315,7 +341,12 @@ button[type="submit"]:active {
 }
 
 input[type="reset"] {
-    margin-top: 0.6rem;
+    padding: 0.7rem 0;
+    transition: opacity ease-out 0.3s;
+}
+
+input[type="reset"]:active {
+    opacity: 0;
 }
 
 /* Media queries */

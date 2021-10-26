@@ -103,7 +103,11 @@ I want to showcase what I already know, and also experiment on what is possible 
         - A website for classic car shows for reference [here](https://www.classiccarevents.uk/listings/upcoming_fortnight.php)
 
 - ## Structure
-    Not sure how to formulate in sentences, yet to document the design process it is necessary.
+    - ### Information architecture
+        - User can reach all pages from main header navigation list
+        - User can reach major sections within a sticky navigation list
+    - ### Interaction design
+        - All user action have a clear and visible feedback
 
 - ## Skeleton
     - ### Conventions
@@ -114,9 +118,9 @@ I want to showcase what I already know, and also experiment on what is possible 
         - Main navigation at the top
         - Aside navigation for the timeline
     - ### Wireframes
-        - [Mobile/Tablet](assets/readme/mobile.jpg)
-        - [Small Screen]()
-        - [Large Screen]()
+        - [Mobile/Tablet](assets/images/readme/mobile-tablet.png)
+        - [Medium Screen](assets/images/readme/medium-screen.png)
+        - [Large Screen](assets/images/readme/large-screen.png)
 
 - ## Surface
     - ### Mobile first design approach
@@ -177,23 +181,25 @@ The project was deployed to GitHub Pages using the following steps...
 
 # Credits
 
-## Code
-+ Markdown documentation from [The Markdown Guide](https://www.markdownguide.org/basic-syntax/)
-<!-- https://stackoverflow.com/questions/25706012/how-do-i-prevent-auto-generated-links-in-the-github-wiki#answer-25707855 -->
-+ README<area>.md structure inspiration from [CI SampleReadme](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
-+ Responsive pixel size on [stackoverflow](https://stackoverflow.com/questions/21574881/responsive-design-with-media-query-screen-size#answer-38037613)
-+ At least 5 separate tab of [MDN Web Docs](https://developer.mozilla.org/en-US/) are in constant use
-+ [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+- ## Code
+    - Markdown documentation from [The Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+    <!-- https://stackoverflow.com/questions/25706012/how-do-i-prevent-auto-generated-links-in-the-github-wiki#answer-25707855 -->
+    - README<area>.md structure inspiration from [CI SampleReadme](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+    - Responsive pixel size on [stackoverflow](https://stackoverflow.com/questions/21574881/responsive-design-with-media-query-screen-size#answer-38037613)
+    - At least 5 separate tab of [MDN Web Docs](https://developer.mozilla.org/en-US/) are in constant use
+    - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
-## Content
+- ## Content
+    - ### Historical facts and content:
+        - Mainly from [supercars.net](https://www.supercars.net/blog/early-1900s-cars/)
 
-## Media
-- On Youtube: [Driving a Ford Model T](https://youtu.be/MLMS_QtKamg)
-- [Pexels](https://www.pexels.com/)
-    - [Main Image](https://www.pexels.com/photo/vintage-cars-in-a-well-lighted-room-175568/)
-- [Pixabay](https://www.pixabay.com/)
-- [Unsplash](https://unsplash.com/)
-- To find matching colors: [Coolors](https://coolors.co/)
-- For contrast comparison: [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%234f4a41ff%3B%0D%0A%23dcedffff%3B%0D%0A%23ecfeaaff%3B%0D%0A%23d282a6ff%3B%0D%0A%23030027ff%3B%0D%0A%23FFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
+- ## Media
+    - On Youtube: [Driving a Ford Model T](https://youtu.be/MLMS_QtKamg)
+    - [Pexels](https://www.pexels.com/)
+        - [Main Image](https://www.pexels.com/photo/vintage-cars-in-a-well-lighted-room-175568/)
+    - [Pixabay](https://www.pixabay.com/)
+    - [Unsplash](https://unsplash.com/)
+    - To find matching colors: [Coolors](https://coolors.co/)
+    - For contrast comparison: [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%234f4a41ff%3B%0D%0A%23dcedffff%3B%0D%0A%23ecfeaaff%3B%0D%0A%23d282a6ff%3B%0D%0A%23030027ff%3B%0D%0A%23FFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 
-## Acknowledgements
+- ## Acknowledgements

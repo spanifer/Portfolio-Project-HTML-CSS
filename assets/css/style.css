@@ -36,7 +36,7 @@ h1, h2 {
 
 h2 {
     text-align: center;
-    font-size: 170%;
+    font-size: 280%;
     margin-bottom: 1rem;
 }
 
@@ -229,7 +229,6 @@ main {
 #history-timeline > article h3::before {
     content: "";
     box-sizing: border-box;
-    display: block;
     position: absolute;
     width: 0.5rem;
     height: 0.5rem;
@@ -247,11 +246,19 @@ main {
 
 
 /* Address details and embedded map */
+#address {
+    padding-top: var(--mobile-url-bar-height);
+}
+
 #address iframe {
     width: 100%;
 }
 
 /* Social media links and icons */
+footer {
+    clear: both;
+}
+
 #social-networks {
     line-height: 2.5rem;
     text-align: center;
@@ -385,19 +392,23 @@ input[type="reset"]:active {
 
 /* Medium screen sizes */
 @media screen and (min-width: 992px) {
-    main {
-        margin: 0 2% 0 calc(2% + 8rem + 2%);
+    body {
+        font-size: 22px;
+    }
+
+    #hero-image {
+        height: calc(100vh - var(--header-height));
     }
 
     #local-nav {
-        width: 8rem;
-        top: var(--header-height);
+        width: 9rem;
+        top: calc(5 * var(--mobile-url-bar-height));
         left: 2%;
     }
 
     #local-nav > nav {
         position: relative;
-        top: var(--header-height);
+        bottom: calc(4 * var(--mobile-url-bar-height));
     }
 
     #local-nav > nav > ul {
@@ -407,5 +418,43 @@ input[type="reset"]:active {
     #local-nav li {
         display: block;
     }
-    
+
+    #local-nav a {
+        padding: calc((var(--mobile-url-bar-height) - 1.3rem) / 2)
+    }
+
+    main {
+        margin: 0 2% 0 calc(2% + 8rem + 2%);
+    }
+
+    #intro {
+        min-height: 50vh;
+    }
+
+    .left-third {
+        float: left;
+        width: 33%;
+    }
+
+    .right-two-third {
+        float: right;
+        width: 66%;
+    }
+
+    #yt-video {
+        height: calc(57vw * 0.54);
+        width: 66%;
+    }
+
+    #history-timeline {
+        clear: both;
+    }
+
+    #history-timeline header {
+        top: 0;
+    }
+
+    #history-timeline > article h3::before {
+        top: 0.7rem;
+    }
 }

@@ -396,6 +396,7 @@ input[type="reset"]:active {
         font-size: 22px;
     }
 
+    /* Home page */
     #hero-image {
         height: calc(100vh - var(--header-height));
     }
@@ -456,5 +457,32 @@ input[type="reset"]:active {
 
     #history-timeline > article h3::before {
         top: 0.7rem;
+    }
+
+    /* Gallery page */
+    #gallery-content > h2 {
+        clear: both;
+    }
+
+    #gallery-content > img {
+        width: 66%;
+        float: left;
+    }
+
+    #gallery-content > p {
+        width: 33%;
+        float: right;
+    }
+
+    #gallery-content > hr {
+        float: left;
+    }
+
+    #gallery-content > img:nth-of-type(2n) {
+        float: right;
+    }
+
+    #gallery-content > p:nth-of-type(2n) {
+        float: left;
     }
 }

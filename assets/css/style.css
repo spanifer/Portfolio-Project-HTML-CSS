@@ -45,6 +45,17 @@ h2 {
     float: right;
 }
 
+.hr-space {
+    margin: 10px;
+}
+
+.hr-default {
+    margin: 15px 0;
+    border: 1px solid var(--davys-grey);
+    box-shadow: 0 0 10px 2px var(--davys-grey);
+    width: 100vw;
+}
+
 /* Logo and header */
 
 body > header {
@@ -90,7 +101,7 @@ header a {
     text-decoration: underline;
 }
 
-/* section styling after the hero image */
+/* section styling after the header */
 
 header ~ section {
     margin: 0 2%;
@@ -99,7 +110,13 @@ header ~ section {
 
 /* Hero image and cover text*/
 
-#hero {
+#hero-wrapper {
+    margin: unset;
+    width: 100%;
+    position: relative;
+}
+
+#hero-image{
     height: calc(100vh - var(--header-height) - var(--mobile-url-bar-height));
     width: 100%;
     background: #4f4a41 url(../images/main-image.jpg) no-repeat center bottom / auto 100%;
@@ -108,14 +125,21 @@ header ~ section {
     margin: 0;
 }
 
-#hero::before {
+#hero-image::before, #hero-image::after {
     content: "";
     display: block;
     width: 100%;
     height: 20px;
     background: linear-gradient(#4f4a4100, var(--davys-grey), #4f4a4100);
-    position: relative;
-    top: -10px;
+    position: absolute;
+}
+
+#hero-image::before {
+    top:-10px;
+}
+
+#hero-image::after {
+    bottom:-10px;
 }
 
 #cover-text {
@@ -146,16 +170,6 @@ header ~ section {
     z-index: 10;
 }
 
-#local-nav::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 10px;
-    background: linear-gradient(#4f4a4100,var(--davys-grey));
-    position: absolute;
-    top: -10px;
-}
-
 #local-nav > nav > ul {
     text-align: center;
     background-color: var(--davys-grey);
@@ -179,6 +193,13 @@ header ~ section {
 
 #local-nav a:hover {
     color: var(--key-lime);
+}
+
+/* Main content wrapper */
+
+main {
+    margin: 0 2%;
+    clear: both;
 }
 
 /* Introduction and youtube video */
@@ -248,7 +269,7 @@ header ~ section {
 
 /* Event cards */
 #event-cards-container {
-    margin: 0;
+    margin: unset;
     padding: 2%;
     box-sizing: border-box;
     width: 100%;
@@ -270,10 +291,6 @@ header ~ section {
 
 #event-cards-container h3 {
     color: var(--davys-grey);
-}
-
-hr {
-    margin: 10px;
 }
 
 /* Subscription Form */
@@ -354,17 +371,13 @@ input[type="reset"]:active {
 }
 
 #gallery-content > hr {
-    margin: 15px 0;
-    border: 1px solid var(--davys-grey);
-    box-shadow: 0 0 10px 2px var(--davys-grey);
     position: relative;
-    width: 100vw;
     left: -2%;
 }
 
 /* Media queries */
 @media (orientation: landscape) {
-    #hero {
+    #hero-image {
         background-position: center center;
         background-size: 100% auto;
     }
@@ -372,7 +385,7 @@ input[type="reset"]:active {
 
 /* Medium screen sizes */
 @media screen and (min-width: 992px) {
-    header ~ section {
+    main {
         margin: 0 2% 0 calc(2% + 8rem + 2%);
     }
 
@@ -385,10 +398,6 @@ input[type="reset"]:active {
     #local-nav > nav {
         position: relative;
         top: var(--header-height);
-    }
-    
-    #local-nav::before {
-        display: none;
     }
 
     #local-nav > nav > ul {

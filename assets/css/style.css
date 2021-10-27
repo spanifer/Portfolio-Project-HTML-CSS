@@ -3,9 +3,8 @@
 :root {
     --main-text-color: #000;
     --header-height: 75px;
-
-    /* mobile url-bar height */
     --mobile-url-bar-height: 55px;
+    --hr-spacer-height: 20px;
 
     /* Coolors */
     --davys-grey: #4f4a41ff;
@@ -46,7 +45,9 @@ h2 {
 }
 
 .hr-space {
-    margin: 10px;
+    margin-top: var(--hr-spacer-height);
+    clear: both;
+    float: left;
 }
 
 .hr-default {
@@ -275,7 +276,7 @@ footer {
 }
 
 /* Event cards */
-#event-cards-container {
+#event-cards-wrapper {
     margin: unset;
     padding: 2%;
     box-sizing: border-box;
@@ -283,7 +284,7 @@ footer {
     background-color: var(--davys-grey);
 }
 
-#event-cards-container > div {
+#event-cards-wrapper > div {
     margin-bottom: 2%;
     padding: 0.2rem 1rem;
     border-radius: 10px;
@@ -292,11 +293,11 @@ footer {
     overflow: auto;
 }
 
-#event-cards-container > div:last-child {
+#event-cards-wrapper > div:last-child {
     margin: 0;
 }
 
-#event-cards-container h3 {
+#event-cards-wrapper h3 {
     color: var(--davys-grey);
 }
 
@@ -424,7 +425,7 @@ input[type="reset"]:active {
         padding: calc((var(--mobile-url-bar-height) - 1.3rem) / 2)
     }
 
-    main {
+    main#home-page {
         margin: 0 2% 0 calc(2% + 8rem + 2%);
     }
 
@@ -484,5 +485,28 @@ input[type="reset"]:active {
 
     #gallery-content > p:nth-of-type(2n) {
         float: left;
+    }
+
+    /* Events and subscription page */
+    #event-cards-wrapper {
+        width: 50%;
+        float: left;
+    }
+
+    #form-wrapper {
+        margin: 0 2%;
+        width: calc(50% - 4%);
+        clear: none;
+        float: right;
+    }
+
+    .small-screen-only {
+        display: none;
+    }
+
+    /* Footer specific, align to the bottom */
+    #events-page {
+        margin: 0;
+        min-height: calc(100vh - var(--header-height) - 4.5rem - var(--hr-spacer-height));
     }
 }

@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Exhibition of the first mass produced Cars">
-    <meta name="keywords" content="car exhibition, model t, ford, industrial revolution, replacing horses, historic cars">
+    <meta name="keywords"
+        content="car exhibition, model t, ford, industrial revolution, replacing horses, historic cars">
     <meta name="author" content="spanifer">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Vintage Car Exhibition</title>
 </head>
+
 <body>
     <!-- Logo and Heading -->
     <header>
@@ -32,84 +35,92 @@
             </ul>
         </nav>
     </header>
-    <!-- Upcoming events -->
-    <section id='event-cards-container'>
-        <!-- div>h3{eventName}+span{contactDetails}+span.float-right{clickToBook?} -->
-        <div>
-            <h3>eventName</h3>
-            <span>contactDetails</span><span class="float-right"><i class="far fa-calendar-check"></i>date</span>
-        </div>
-        <div>
-            <h3>eventName</h3>
-            <span>contactDetails</span><span class="float-right"><i class="far fa-calendar-check"></i>date</span>
-        </div>
-    </section>
-    <hr class="hr-space">
-    <!-- Event and newsletter subscription form -->
-    <section>
-        <h2>Let us notify you when new events are available</h2>
-        <form action="handle-subscription.html" method="get">
-            <!-- Get method is used to demonstrate response to the form, a post request throws a server error as the server side response is not implemented -->
-            <fieldset id="form-details">
-                <legend><i class="fas fa-user"></i> Your details</legend>
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" minlength="2" maxlength="64" placeholder="or nick name"
-                        required>
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend><i class="fas fa-ellipsis-v"></i> Choose subscription</legend>
-                <span>
-                    <label for="newsletter">Newsletter</label>
-                    <input type="checkbox" name="newsletter" id="newsletter">
-                </span>
-                <span>
-                    <label for="events">Events notification</label>
-                    <input type="checkbox" name="events" id="events" checked>
-                </span>
-            </fieldset>
-            <fieldset>
-                <legend><i class="fas fa-globe-europe"></i> Choose region</legend>
-                <span>
-                    <label for="all">All region</label>
-                    <input type="radio" name="region" id="all" required>
-                </span>
-                <span>
-                    <label for="ireland">Ireland only</label>
-                    <input type="radio" name="region" id="ireland">
-                </span>
-            </fieldset>
+    <!-- Main content wrapper -->
+    <main id="events-page">
+        <!-- Upcoming events -->
+        <section id="event-cards-wrapper">
+            <!-- div>h3{eventName}+span{contactDetails}+span.float-right{clickToBook?} -->
             <div>
-                <button type="submit"><i class="fas fa-arrow-circle-up"></i> Subscribe</button>
-                <input type="reset" value="Reset form to default" class="float-right">
+                <h3>eventName</h3>
+                <span>contactDetails</span><span class="float-right"><i class="far fa-calendar-check"></i>date</span>
             </div>
-        </form>
-    </section>
+            <div>
+                <h3>eventName</h3>
+                <span>contactDetails</span><span class="float-right"><i class="far fa-calendar-check"></i>date</span>
+            </div>
+        </section>
+        <hr class="hr-space small-screen-only">
+        <!-- Event and newsletter subscription form -->
+        <section id="form-wrapper">
+            <h2>Let us notify you when new events are available</h2>
+            <form action="handle-subscription.html" method="get">
+                <!-- Get method is used to demonstrate response to the form, a post request throws a server error as the server side response is not implemented -->
+                <fieldset id="form-details">
+                    <legend><i class="fas fa-user"></i> Your details</legend>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" minlength="2" maxlength="64" placeholder="or nick name"
+                            required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend><i class="fas fa-ellipsis-v"></i> Choose subscription</legend>
+                    <span>
+                        <label for="newsletter">Newsletter</label>
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                    </span>
+                    <span>
+                        <label for="events">Events notification</label>
+                        <input type="checkbox" name="events" id="events" checked>
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <legend><i class="fas fa-globe-europe"></i> Choose region</legend>
+                    <span>
+                        <label for="all">All region</label>
+                        <input type="radio" name="region" id="all" required>
+                    </span>
+                    <span>
+                        <label for="ireland">Ireland only</label>
+                        <input type="radio" name="region" id="ireland">
+                    </span>
+                </fieldset>
+                <div>
+                    <button type="submit"><i class="fas fa-arrow-circle-up"></i> Subscribe</button>
+                    <input type="reset" value="Reset form to default" class="float-right">
+                </div>
+            </form>
+        </section>
+    </main>
     <!-- Social Networks -->
+    <hr class="hr-space">
     <footer>
         <ul id="social-networks">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener external" aria-label="Visit our facebook page (opens in new tab)">
+                <a href="https://facebook.com" target="_blank" rel="noopener external"
+                    aria-label="Visit our facebook page (opens in new tab)">
                     <i class="fab fa-facebook-square"></i>
                 </a>
             </li>
             <li>
-                <a href="http://instagram.com" target="_blank" rel="noopener external" aria-label="Visit our instagram page (opens in new tab)">
+                <a href="http://instagram.com" target="_blank" rel="noopener external"
+                    aria-label="Visit our instagram page (opens in new tab)">
                     <i class="fab fa-instagram-square"></i>
                 </a>
             </li>
             <li>
-                <a href="http://youtube.com" target="_blank" rel="noopener external" aria-label="Visit our youtube channel (opens in new tab)">
+                <a href="http://youtube.com" target="_blank" rel="noopener external"
+                    aria-label="Visit our youtube channel (opens in new tab)">
                     <i class="fab fa-youtube-square"></i>
                 </a>
             </li>
             <li>
-                <a href="http://twitter.com" target="_blank" rel="noopener external" aria-label="Visit our twitter feed (opens in new tab)">
+                <a href="http://twitter.com" target="_blank" rel="noopener external"
+                    aria-label="Visit our twitter feed (opens in new tab)">
                     <i class="fab fa-twitter-square"></i>
                 </a>
             </li>
@@ -118,4 +129,5 @@
     <!-- Font Awsome -->
     <script src="https://kit.fontawesome.com/a27400ecfe.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

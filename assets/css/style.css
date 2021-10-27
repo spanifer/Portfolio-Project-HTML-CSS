@@ -369,3 +369,34 @@ input[type="reset"]:active {
         background-size: 100% auto;
     }
 }
+
+/* Medium screen sizes */
+@media screen and (min-width: 992px) {
+    header ~ section {
+        margin: 0 2% 0 calc(2% + 8rem + 2%);
+    }
+
+    #local-nav {
+        width: 8rem;
+        top: var(--header-height);
+        left: 2%;
+    }
+
+    #local-nav > nav {
+        position: relative;
+        top: var(--header-height);
+    }
+    
+    #local-nav::before {
+        display: none;
+    }
+
+    #local-nav > nav > ul {
+        border-radius: 10px;
+    }
+
+    #local-nav li {
+        display: block;
+    }
+    
+}

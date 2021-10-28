@@ -191,7 +191,8 @@ The project was deployed to GitHub Pages using the following steps...
 
 - ## Content
     - ### Historical facts and content:
-        - Mainly from [supercars.net](https://www.supercars.net/blog/early-1900s-cars/)
+        - [supercars.net](https://www.supercars.net/blog/early-1900s-cars/)
+        - [wikipedia.org](https://en.wikipedia.org/wiki/Car)
 
 - ## Media
     - On Youtube: [Driving a Ford Model T](https://youtu.be/MLMS_QtKamg)

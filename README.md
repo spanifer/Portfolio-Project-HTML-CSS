@@ -157,6 +157,8 @@ I want to showcase what I already know, and also experiment on what is possible 
 1. [Font Awesome](https://fontawesome.com/)
 1. [Balsamiq](https://balsamiq.com/)
 1. [Image average color finder](https://10015.io/tools/image-average-color-finder)
+1. To resize and convert images [img2go.com](https://www.img2go.com/resize-image)
+1. To reduce image size [tinypng.com](https://tinypng.com/)
 
 # Testing
 - Chromes [Screen Reader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) to test accessibility
@@ -193,6 +195,9 @@ The project was deployed to GitHub Pages using the following steps...
     - ### Historical facts and content:
         - [supercars.net](https://www.supercars.net/blog/early-1900s-cars/)
         - [wikipedia.org](https://en.wikipedia.org/wiki/Car)
+        - About [Model A Sedan](https://www.oneillvintageford.co.uk/acatalog/Ford_Model_A_Body_Styles.html) and from [this video](https://www.youtube.com/watch?v=8uljhvXIlQ0)
+        - About [Model A Coupe](https://www.jalopyjournal.com/forum/threads/1928-ford-model-a.1086996/)
+        - About [Model T Touring](https://youtu.be/6i8-bSaUk_M)
 
 - ## Media
     - On Youtube: [Driving a Ford Model T](https://youtu.be/MLMS_QtKamg)
@@ -200,6 +205,7 @@ The project was deployed to GitHub Pages using the following steps...
         - [Main Image](https://www.pexels.com/photo/vintage-cars-in-a-well-lighted-room-175568/)
     - [Pixabay](https://www.pixabay.com/)
     - [Unsplash](https://unsplash.com/)
+    - Editorial use only [Model T Touring](https://www.rawpixel.com/image/3092643/free-photo-image-car-historical-house)
     - To find matching colors: [Coolors](https://coolors.co/)
     - For contrast comparison: [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%234f4a41ff%3B%0D%0A%23dcedffff%3B%0D%0A%23ecfeaaff%3B%0D%0A%23d282a6ff%3B%0D%0A%23030027ff%3B%0D%0A%23FFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 

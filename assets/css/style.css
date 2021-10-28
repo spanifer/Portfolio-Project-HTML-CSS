@@ -120,7 +120,7 @@ header ~ section {
 #hero-image{
     height: calc(100vh - var(--header-height) - var(--mobile-url-bar-height));
     width: 100%;
-    background: #4f4a41 url(../images/main-image.jpg) no-repeat center bottom / auto 100%;
+    background: #4f4a41 url(../images/main-image.webp) no-repeat center bottom / auto 100%;
     position: relative;
     clear: both;
     margin: 0;

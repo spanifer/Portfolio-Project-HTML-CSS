@@ -192,12 +192,12 @@ The project was deployed to GitHub Pages using the following steps...
     - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
 - ## Content
-    - ### Historical facts and content:
-        - [supercars.net](https://www.supercars.net/blog/early-1900s-cars/)
-        - [wikipedia.org](https://en.wikipedia.org/wiki/Car)
-        - About [Model A Sedan](https://www.oneillvintageford.co.uk/acatalog/Ford_Model_A_Body_Styles.html) and from [this video](https://www.youtube.com/watch?v=8uljhvXIlQ0)
-        - About [Model A Coupe](https://www.jalopyjournal.com/forum/threads/1928-ford-model-a.1086996/)
-        - About [Model T Touring](https://youtu.be/6i8-bSaUk_M)
+    - [supercars.net](https://www.supercars.net/blog/early-1900s-cars/)
+    - [wikipedia.org](https://en.wikipedia.org/wiki/Car)
+    - About [Model A Sedan](https://www.oneillvintageford.co.uk/acatalog/Ford_Model_A_Body_Styles.html) and from [this video](https://www.youtube.com/watch?v=8uljhvXIlQ0)
+    - About [Model A Coupe](https://www.jalopyjournal.com/forum/threads/1928-ford-model-a.1086996/)
+    - About [Model T Touring](https://youtu.be/6i8-bSaUk_M)
+    - Real events and [here](https://www.classiccarevents.uk/listings/upcoming_fortnight.php)
 
 - ## Media
     - On Youtube: [Driving a Ford Model T](https://youtu.be/MLMS_QtKamg)

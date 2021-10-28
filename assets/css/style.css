@@ -391,9 +391,9 @@ input[type="reset"]:active {
     }
 }
 
-/* Medium screen sizes */
+/* Medium screen size */
 @media screen and (min-width: 992px) {
-    body {
+    html, body {
         font-size: 22px;
     }
 
@@ -403,7 +403,7 @@ input[type="reset"]:active {
     }
 
     #local-nav {
-        width: 9rem;
+        width: 6rem;
         top: calc(5 * var(--mobile-url-bar-height));
         left: 2%;
     }
@@ -425,8 +425,8 @@ input[type="reset"]:active {
         padding: calc((var(--mobile-url-bar-height) - 1.3rem) / 2)
     }
 
-    main#home-page {
-        margin: 0 2% 0 calc(2% + 8rem + 2%);
+    #home-page {
+        margin: 0 2% 0 calc(2% + 6rem + 2%);
     }
 
     #intro {
@@ -508,5 +508,46 @@ input[type="reset"]:active {
     #events-page {
         margin: 0;
         min-height: calc(100vh - var(--header-height) - 4.5rem - var(--hr-spacer-height));
+    }
+}
+
+/* Large screen size */
+@media screen and (min-width: 1200px) {
+    html, body {
+        font-size: 26px;
+    }
+
+    body > header {
+        width: 1200px;
+        margin: auto;
+        position: relative;
+    }
+
+    #home-page {
+        width: 1000px;
+        margin-left: calc((100% - 1000px + 6rem) / 2);
+    }
+
+    #local-nav {
+        left: calc((100% - 1000px - 8rem) / 2);
+    }
+
+    #yt-video {
+        height: 445px;
+    }
+
+    #gallery-content {
+        width: 1200px;
+        margin: auto;
+    }
+
+    #gallery-content hr {
+        width: 1200px;
+        left: 0;
+    }
+
+    #events-page {
+        width: 1200px;
+        margin: auto;
     }
 }

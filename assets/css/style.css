@@ -218,15 +218,15 @@ main {
     padding-top: var(--mobile-url-bar-height);
 }
 
-#history-timeline header{
+#history-timeline h3{
     position: sticky;
-    top: var(--mobile-url-bar-height);
+    top: calc(var(--mobile-url-bar-height) - 1px);
     z-index: 5;
     background-color: white;
     padding-left: 2rem;
 }
 
-#history-timeline > article h3::before {
+#history-timeline h3::before {
     content: "";
     box-sizing: border-box;
     position: absolute;
@@ -238,7 +238,7 @@ main {
     border-radius: 50%;
 }
 
-#history-timeline > article section {
+#history-timeline h3 ~ p {
     margin-left: .5rem;
     border-left: 3px solid var(--oxford-blue);
     padding-left: .5rem;
@@ -447,7 +447,7 @@ input[type="reset"]:active {
         clear: both;
     }
 
-    #history-timeline header {
+    #history-timeline h3 {
         top: 0;
     }
 

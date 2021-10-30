@@ -52,9 +52,8 @@ h2 {
 
 .hr-default {
     margin: 15px 0;
-    border: 1px solid var(--davys-grey);
-    box-shadow: 0 0 10px 2px var(--davys-grey);
-    width: 100vw;
+    box-shadow: 0 0 10px 3px var(--davys-grey);
+    width: 100%;
 }
 
 /* Logo and header */
@@ -281,7 +280,6 @@ footer {
     padding: 2%;
     box-sizing: border-box;
     width: 100%;
-    background-color: var(--davys-grey);
 }
 
 #event-cards-wrapper > div {
@@ -313,6 +311,8 @@ fieldset > legend {
     padding: 0 1rem;
     border-radius: 1rem;
     background-color: var(--alice-blue);
+    line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 fieldset > span {
@@ -376,11 +376,6 @@ input[type="reset"]:active {
 
 #gallery-content img {
     width: 100%;
-}
-
-#gallery-content > hr {
-    position: relative;
-    left: -2%;
 }
 
 /* Media queries */
@@ -539,11 +534,6 @@ input[type="reset"]:active {
     #gallery-content {
         width: 1200px;
         margin: auto;
-    }
-
-    #gallery-content hr {
-        width: 1200px;
-        left: 0;
     }
 
     #events-page {

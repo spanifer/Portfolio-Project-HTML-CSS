@@ -476,6 +476,11 @@ input[type="reset"]:active {
     }
 
     /* Gallery page */
+    #gallery-content {
+        width: auto;
+        margin: 2%;
+    }
+
     #gallery-content > h2 {
         clear: both;
     }

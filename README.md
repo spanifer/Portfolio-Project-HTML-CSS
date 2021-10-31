@@ -1,39 +1,12 @@
-<h1 align="center"> Vintage Car Exhibit </h1>
+<h1 align="center"> Vintage Car Exhibition </h1>
 
 ## Code Institute - Portfolio Project 1 - HTML, CSS
 
-[Responsive Design from http://ami.responsivedesign.is/](assets/readme/ami.jpg)
+[See the live project here](https://spanifer.github.io/Portfolio-Project-HTML-CSS/)
 
-## BEGIN PLACEHOLDER - Introduction (Currently listing the ideas)
+A website about a discreet collection of vintage cars, a bit of history from the era and similar exhibition events.
 
-### Main Idea
-+ Landing page for an imaginary vintage car exhibition, and similar real-life events
-+ The impact of cars of the industrial revolution
-+ Gallery of the first mass produced cars
-+ A historic view of vintage cars, and initial acceptance by society.
-+ First mass produced combustion engine and/or steam engine cars.
-+ ~~Technologies used~~
-+ ~~Driving experience compared to next-to-present technological advancement~~
-
-### Dream to accomplish
-
-I want to showcase what I already know, and also experiment on what is possible particularly with css animations.
-
-1. I want to see a html-css based animation of a simplified outline of a vintage car, being a short _introduction_ page for the website, the final state also being the logo for the website.
-
-2. I need a home page with a timeline with the first few years of cars being tested and used on roads, driving experience, comparison, technologies, (and an accompanying video)
-
-3. I need an event page for recent and future exhibitions and such.
-
-4. Depending on available content I could include a gallery.
-
-5. A become a member form or register for upcoming event notification form.
-
-6. A hidden page to respond to the form.
-
-## END PLACEHOLDER - Introduction
-
-***
+![Responsive Design from http://ami.responsivedesign.is/](assets/images/readme/ami.png)
 
 # Table of content
 + [User Experience](#user-experience)
@@ -53,13 +26,13 @@ I want to showcase what I already know, and also experiment on what is possible 
 
         1. A website about vintage cars, for a wide target audience from *children* to **enthusiast**
 
-        2. The content is minimalists straight to the point historic facts about the first cars, with links to external broader content, so whoever is interested in that topic should find this site sufficient and informative, and a hub for further external sites.
+        2. The content is minimalists straight to the point historic facts about the first cars, so whoever is interested in that topic should find this site sufficient and informative.
 
-        3. Landing page should have a main image followed by an introductory inviting text to scroll down further and find historical timeline of how cars came to be, link to gallery, and the main attraction to register for upcoming exhibition events.
+        3. Landing page should have a main image followed by an introductory inviting text to scroll down further and find historical timeline, link to gallery, and to register for upcoming exhibition events.
 
     - ### Value
 
-        1. It needs to be visually appealing so much so that less interested visitors about the topic gets convinced to explore the site.  Expecting the initial short intro animation to excite interest.
+        1. It needs to be visually appealing so much so that less interested visitors about the topic gets convinced to explore the site. ~~Expecting the initial short intro animation to excite interest.~~
 
         2. The site have a subscription page to receive upcoming exhibition information.
 
@@ -69,8 +42,8 @@ I want to showcase what I already know, and also experiment on what is possible 
 
         Opportunity / Problem | Importance | Feasibility
         --- | --- | ---
-        First impression of intro animation | 4 | ?
-        HTML-CSS crafted logo | 4 | ?
+        ~~First impression of intro animation~~ | ~~4~~ | ~~?~~
+        ~~HTML-CSS crafted logo~~ | ~~4~~ | ~~?~~
         ~~Member registration~~ | ~~4~~ | ~~3~~
         Upcoming events subscription | 5 | 4
         Gallery page | 3 | 4
@@ -96,11 +69,7 @@ I want to showcase what I already know, and also experiment on what is possible 
         1. Landing page, with timeline, and content
         2. Subscription form
         3. Gallery page
-        4. Intro animation and/or html-crafted logo
-
-    - ### Available content, available resources
-        - Found a video on Youtube for an initial intro for the historic timeline.
-        - A website for classic car shows for reference [here](https://www.classiccarevents.uk/listings/upcoming_fortnight.php)
+        4. ~~Intro animation and/or html-crafted logo~~
 
 - ## Structure
     - ### Information architecture
@@ -111,12 +80,11 @@ I want to showcase what I already know, and also experiment on what is possible 
 
 - ## Skeleton
     - ### Conventions
-        - Calendar icon for the upcoming events
-        - Pictures icon for the gallery
-        - House icon for home
+        - Calendar icon for the events dates
+        - Other conventional icons for the subscription form
     - ### Navigation
         - Main navigation at the top
-        - Aside navigation for the timeline
+        - Aside navigation on the home page
     - ### Wireframes
         - [Mobile/Tablet](assets/images/readme/mobile-tablet.png)
         - [Medium Screen](assets/images/readme/medium-screen.png)
@@ -126,12 +94,13 @@ I want to showcase what I already know, and also experiment on what is possible 
     - ### Mobile first design approach
     - ### Colour Scheme
         Colours chosen from [coolors.com](https://coolors.co/4f4a41-dcedff-ecfeaa-d282a6-030027)
-        - white
+        - white and black
         - davys-grey: #4f4a41ff
         - alice-blue: #dcedffff
         - key-lime: #ecfeaaff
         - middle-purple: #d282a6ff
         - oxford-blue: #030027ff
+
     - ### Typography
         - Arbutus Slab font was chosen for the main content and general text, to achieve the atmosphere of the retro cars on display. Inspired by 18th and 19th American jobbing type.
         - Ephesis font was chosen for large headings to reenforce the atmosphere even more.
@@ -161,10 +130,27 @@ I want to showcase what I already know, and also experiment on what is possible 
 1. To reduce image size [tinypng.com](https://tinypng.com/)
 
 # Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- [W3C Markup Validator](https://validator.w3.org/) - [Results](assets/images/readme/w3c-results/)
+- [W3C CSS Validator](https://jigsaw.w3.org/) - 
+<a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="https://jigsaw.w3.org/css-validator/images/vcss"
+        alt="Valid CSS!" />
+</a>
+
+## Testing user Stories from [UX Scope](#user-stories)
+
+Users are greeted with an inside look of the exhibition and garage, and with clear main navigation bar they can decide where to go next. The secondary navigation bar can help to easily reach the historic content and social media links next to the address and map.
+
+## Further testing
 - Chromes [Screen Reader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) to test accessibility
+- Website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Safari browser.
+- Website was viewed on many devices such as Desktop, Laptop, iPhone 12, Samsung, and Pixel.
+- Friends been asked to review the website and point out any bugs and experience issues.
 
 ## Found issues
-- CSS property scroll-behavior is not supported by the Safari browser
+- CSS property scroll-behavior is [not supported](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior#browser_compatibility) by the Safari browser, yet tests indicate it does work as expected
 - Smooth-scroll for internal links does not scroll to the referenced id if the Screen Reader is enabled
 
 # Deployment
@@ -178,8 +164,7 @@ The project was deployed to GitHub Pages using the following steps...
 3. From the vertical navigation list on the left side select the "Pages" link.
 4. Under "Source", click the dropdown called "None" and select "Branch: main".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
-# ***⚠ Update link in step 6⚠***
+6. Scroll back down through the page to locate the now published site [link](https://spanifer.github.io/Portfolio-Project-HTML-CSS/) in the "GitHub Pages" section.
 
 # Credits
 
@@ -197,7 +182,7 @@ The project was deployed to GitHub Pages using the following steps...
     - About [Model A Sedan](https://www.oneillvintageford.co.uk/acatalog/Ford_Model_A_Body_Styles.html) and from [this video](https://www.youtube.com/watch?v=8uljhvXIlQ0)
     - About [Model A Coupe](https://www.jalopyjournal.com/forum/threads/1928-ford-model-a.1086996/)
     - About [Model T Touring](https://youtu.be/6i8-bSaUk_M)
-    - Real events and [here](https://www.classiccarevents.uk/listings/upcoming_fortnight.php)
+    - Real events from [here](https://www.classiccarevents.uk/listings/upcoming_fortnight.php)
 
 - ## Media
     - On Youtube: [Driving a Ford Model T](https://youtu.be/MLMS_QtKamg)
@@ -209,4 +194,6 @@ The project was deployed to GitHub Pages using the following steps...
     - To find matching colors: [Coolors](https://coolors.co/)
     - For contrast comparison: [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%234f4a41ff%3B%0D%0A%23dcedffff%3B%0D%0A%23ecfeaaff%3B%0D%0A%23d282a6ff%3B%0D%0A%23030027ff%3B%0D%0A%23FFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 
-- ## Acknowledgements
+- ## Acknowledgements for
+    - Everyone on Slack, even tho I did not have many opportunity to take part in conversations, the amount of information that is available to browse is irreplaceable
+    - Every session with my mentors, all the tips and clarifications

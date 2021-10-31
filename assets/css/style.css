@@ -386,10 +386,21 @@ input[type="reset"]:active {
     }
 }
 
+@media screen and (min-width: 768px) {
+    html, body {
+        font-size: 18px;
+    }
+
+    main, #gallery-content {
+        width: 738px;
+        margin: auto;
+    }
+}
+
 /* Medium screen size */
 @media screen and (min-width: 992px) {
     html, body {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     /* Home page */
@@ -484,6 +495,10 @@ input[type="reset"]:active {
     }
 
     /* Events and subscription page */
+    #events-page {
+        width: auto;
+    }
+
     #event-cards-wrapper {
         width: 50%;
         float: left;
@@ -510,7 +525,7 @@ input[type="reset"]:active {
 /* Large screen size */
 @media screen and (min-width: 1200px) {
     html, body {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     body > header {

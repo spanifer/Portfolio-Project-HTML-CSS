@@ -113,6 +113,22 @@ A website about a discreet collection of vintage cars, a bit of history from the
 - Responsive on all device sizes
 - Interactive Elements
 
+- The home page make us of sticky navigation, that starts on the bottom of screen and sticks to the top further down. The element height was chosen after mobile browsers Url height.
+
+![Home Page sticky navigation - small screen](assets/images/readme/finished-project-screens/local-nav-mobile.png)
+
+- On larger screens it is highlighted to stand out from the similar colored image background. Its position follow the main element on the left side of the page, and make it easy to quickly navigate to major content.
+
+![Home Page sticky navigation - large screen](assets/images/readme/finished-project-screens/local-nav-laptop.png)
+
+- List of upcoming and previous events.
+
+![Event List](assets/images/readme/finished-project-screens/events.png)
+
+- Subscription form.
+
+![Subscription Form](assets/images/readme/finished-project-screens/form.png)
+
 # Technologies used
 
 ## Languages used
@@ -130,7 +146,7 @@ A website about a discreet collection of vintage cars, a bit of history from the
 1. To reduce image size [tinypng.com](https://tinypng.com/)
 
 # Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. feature 
 - [W3C Markup Validator](https://validator.w3.org/) - [Results](assets/images/readme/w3c-results/)
 - [W3C CSS Validator](https://jigsaw.w3.org/) - All Passed Without Errors
 <a href="https://jigsaw.w3.org/css-validator/check/referer">

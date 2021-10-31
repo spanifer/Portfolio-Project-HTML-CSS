@@ -124,7 +124,7 @@ header ~ section {
 #hero-image{
     height: calc(100vh - var(--header-height) - var(--mobile-url-bar-height));
     width: 100%;
-    background: #4f4a41 url(../images/main-image.webp) no-repeat center bottom / auto 100%;
+    background: #4f4a41 url(../images/main-image.webp) no-repeat center / cover;
     position: relative;
     clear: both;
     margin: 0;
@@ -386,14 +386,7 @@ input[type="reset"]:active {
     width: 100%;
 }
 
-/* Media queries */
-@media (min-aspect-ratio: 5/4) {
-    #hero-image {
-        background-position: center center;
-        background-size: 100% auto;
-    }
-}
-
+/* Tablet screen size */
 @media screen and (min-width: 768px) {
     html, body {
         font-size: 18px;

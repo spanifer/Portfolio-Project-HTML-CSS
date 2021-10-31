@@ -379,7 +379,7 @@ input[type="reset"]:active {
 }
 
 /* Media queries */
-@media (orientation: landscape) {
+@media (min-aspect-ratio: 5/4) {
     #hero-image {
         background-position: center center;
         background-size: 100% auto;

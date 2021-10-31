@@ -132,7 +132,7 @@ A website about a discreet collection of vintage cars, a bit of history from the
 # Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 - [W3C Markup Validator](https://validator.w3.org/) - [Results](assets/images/readme/w3c-results/)
-- [W3C CSS Validator](https://jigsaw.w3.org/) - 
+- [W3C CSS Validator](https://jigsaw.w3.org/) - All Passed Without Errors
 <a href="https://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
         src="https://jigsaw.w3.org/css-validator/images/vcss"

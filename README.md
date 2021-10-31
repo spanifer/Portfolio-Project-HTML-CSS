@@ -168,6 +168,7 @@ Users are greeted with an inside look of the exhibition and garage, and with cle
 ## Found issues
 - CSS property scroll-behavior is [not supported](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior#browser_compatibility) by the Safari browser, yet tests indicate it does work as expected
 - Smooth-scroll for internal links does not scroll to the referenced id if the Screen Reader is enabled
+- Choosing subscription type by ticking checkbox elements should be required, but that need Javascript logic to be implemented. In this case the form can be sent without any box ticked.
 
 # Deployment
 
